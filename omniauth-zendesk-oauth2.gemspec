@@ -13,6 +13,8 @@ Gem::Specification.new do |gem|
   gem.version = OmniAuth::Zendesk::VERSION
   gem.license = 'MIT'
 
+  gem.required_ruby_version = ">= 3"
+
   gem.add_dependency 'omniauth', '~> 2.0.0'
   gem.add_dependency 'omniauth-oauth2', '>= 1.4.0', '< 2.0'
 
